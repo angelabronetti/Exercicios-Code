@@ -1,0 +1,17 @@
+C:\Users\fic\Desktop\C#\Cálculo de Média\obj\Debug\netcoreapp2.2\Cálculo de Média.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\C#\Cálculo de Média\obj\Debug\netcoreapp2.2\Cálculo de Média.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\C#\Cálculo de Média\obj\Debug\netcoreapp2.2\Cálculo de Média.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\C#\Cálculo de Média\obj\Debug\netcoreapp2.2\Cálculo de Média.AssemblyInfo.cs
+C:\Users\fic\Desktop\C#\Cálculo de Média\bin\Debug\netcoreapp2.2\Cálculo de Média.deps.json
+C:\Users\fic\Desktop\C#\Cálculo de Média\bin\Debug\netcoreapp2.2\Cálculo de Média.runtimeconfig.json
+C:\Users\fic\Desktop\C#\Cálculo de Média\bin\Debug\netcoreapp2.2\Cálculo de Média.runtimeconfig.dev.json
+C:\Users\fic\Desktop\C#\Cálculo de Média\bin\Debug\netcoreapp2.2\Cálculo de Média.dll
+C:\Users\fic\Desktop\C#\Cálculo de Média\bin\Debug\netcoreapp2.2\Cálculo de Média.pdb
+C:\Users\fic\Desktop\C#\Cálculo de Média\obj\Debug\netcoreapp2.2\Cálculo de Média.dll
+C:\Users\fic\Desktop\C#\Cálculo de Média\obj\Debug\netcoreapp2.2\Cálculo de Média.pdb
+C:\Users\fic\Desktop\C#\CalculodeMedia\obj\Debug\netcoreapp2.2\Cálculo de Média.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\C#\CalculodeMedia\obj\Debug\netcoreapp2.2\Cálculo de Média.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\C#\CalculodeMedia\obj\Debug\netcoreapp2.2\Cálculo de Média.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\C#\CalculodeMedia\obj\Debug\netcoreapp2.2\Cálculo de Média.AssemblyInfo.cs
+C:\Users\fic\Desktop\C#\CalculodeMedia\obj\Debug\netcoreapp2.2\Cálculo de Média.dll
+C:\Users\fic\Desktop\C#\CalculodeMedia\obj\Debug\netcoreapp2.2\Cálculo de Média.pdb

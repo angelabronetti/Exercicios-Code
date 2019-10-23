@@ -1,0 +1,15 @@
+C:\Users\fic\Desktop\C#\Poo\Program\obj\Debug\netcoreapp2.2\Program.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\C#\Poo\Program\obj\Debug\netcoreapp2.2\Program.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\C#\Poo\Program\obj\Debug\netcoreapp2.2\Program.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\C#\Poo\Program\obj\Debug\netcoreapp2.2\Program.AssemblyInfo.cs
+C:\Users\fic\Desktop\C#\Poo\bin\Debug\netcoreapp2.2\Program.deps.json
+C:\Users\fic\Desktop\C#\Poo\bin\Debug\netcoreapp2.2\Program.runtimeconfig.json
+C:\Users\fic\Desktop\C#\Poo\bin\Debug\netcoreapp2.2\Program.runtimeconfig.dev.json
+C:\Users\fic\Desktop\C#\Poo\bin\Debug\netcoreapp2.2\Program.dll
+C:\Users\fic\Desktop\C#\Poo\bin\Debug\netcoreapp2.2\Program.pdb
+C:\Users\fic\Desktop\C#\Poo\obj\Debug\netcoreapp2.2\Program.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\C#\Poo\obj\Debug\netcoreapp2.2\Program.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\C#\Poo\obj\Debug\netcoreapp2.2\Program.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\C#\Poo\obj\Debug\netcoreapp2.2\Program.AssemblyInfo.cs
+C:\Users\fic\Desktop\C#\Poo\obj\Debug\netcoreapp2.2\Program.dll
+C:\Users\fic\Desktop\C#\Poo\obj\Debug\netcoreapp2.2\Program.pdb

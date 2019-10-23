@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\bin\Debug\netcoreapp2.2\Exercicio.deps.json
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\bin\Debug\netcoreapp2.2\Exercicio.runtimeconfig.json
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\bin\Debug\netcoreapp2.2\Exercicio.runtimeconfig.dev.json
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\bin\Debug\netcoreapp2.2\Exercicio.dll
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\bin\Debug\netcoreapp2.2\Exercicio.pdb
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\obj\Debug\netcoreapp2.2\Exercicio.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\obj\Debug\netcoreapp2.2\Exercicio.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\obj\Debug\netcoreapp2.2\Exercicio.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\obj\Debug\netcoreapp2.2\Exercicio.AssemblyInfo.cs
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\obj\Debug\netcoreapp2.2\Exercicio.dll
+C:\Users\fic\Desktop\C#\Exercicio\Exercicio\obj\Debug\netcoreapp2.2\Exercicio.pdb

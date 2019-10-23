@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\C#\programinha\bin\Debug\netcoreapp2.2\programinha.deps.json
+C:\Users\fic\Desktop\C#\programinha\bin\Debug\netcoreapp2.2\programinha.runtimeconfig.json
+C:\Users\fic\Desktop\C#\programinha\bin\Debug\netcoreapp2.2\programinha.runtimeconfig.dev.json
+C:\Users\fic\Desktop\C#\programinha\bin\Debug\netcoreapp2.2\programinha.dll
+C:\Users\fic\Desktop\C#\programinha\bin\Debug\netcoreapp2.2\programinha.pdb
+C:\Users\fic\Desktop\C#\programinha\obj\Debug\netcoreapp2.2\programinha.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\C#\programinha\obj\Debug\netcoreapp2.2\programinha.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\C#\programinha\obj\Debug\netcoreapp2.2\programinha.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\C#\programinha\obj\Debug\netcoreapp2.2\programinha.AssemblyInfo.cs
+C:\Users\fic\Desktop\C#\programinha\obj\Debug\netcoreapp2.2\programinha.dll
+C:\Users\fic\Desktop\C#\programinha\obj\Debug\netcoreapp2.2\programinha.pdb

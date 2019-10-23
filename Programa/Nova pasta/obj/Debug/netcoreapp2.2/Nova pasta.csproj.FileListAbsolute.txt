@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\obj\Debug\netcoreapp2.2\Nova pasta.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\obj\Debug\netcoreapp2.2\Nova pasta.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\obj\Debug\netcoreapp2.2\Nova pasta.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\obj\Debug\netcoreapp2.2\Nova pasta.AssemblyInfo.cs
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\bin\Debug\netcoreapp2.2\Nova pasta.deps.json
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\bin\Debug\netcoreapp2.2\Nova pasta.runtimeconfig.json
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\bin\Debug\netcoreapp2.2\Nova pasta.runtimeconfig.dev.json
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\bin\Debug\netcoreapp2.2\Nova pasta.dll
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\bin\Debug\netcoreapp2.2\Nova pasta.pdb
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\obj\Debug\netcoreapp2.2\Nova pasta.dll
+C:\Users\fic\Desktop\C#\Programa\Nova pasta\obj\Debug\netcoreapp2.2\Nova pasta.pdb
