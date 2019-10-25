@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GUFOS</name>
+    </assembly>
+    <members>
+        <member name="M:GUFOS.Controllers.LoginController.autenticarUsuario(GUFOS.Models.Usuario)">
+            <summary>
+            
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

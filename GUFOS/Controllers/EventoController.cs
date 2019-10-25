@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using GUFOS.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,7 +14,7 @@ namespace GUFOS.Controllers
     {
         GufosContext context = new GufosContext();
 
-        // [Authorize]
+        [Authorize]
         [HttpGet]
 
         public async Task<ActionResult<List<Evento>>> Get()

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using GUFOS.Models;
+using GUFOS.Repositorios;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,71 +14,75 @@ namespace GUFOS.Controllers
     {
         GufosContext context = new GufosContext();
 
+        CategoriaRepositorio repositorio = new CategoriaRepositorio();
+
         [HttpGet]
 
         public async Task<ActionResult<List<Categoria>>> Get()
         {
-            List<Categoria> listaDeCategoria = await context.Categoria.ToListAsync();
-
-            if(listaDeCategoria == null)
-            {
-                return NotFound();
-            }
-            return listaDeCategoria;
+           try{
+               return await repositorio.Get();
+           }catch(System.Exception){
+               throw;
+           }
         }
+
         [HttpGet("{id}")]
 
         public async Task<ActionResult<Categoria>> Get(int id)
         {
-            Categoria categoriaRetornada = await context.Categoria.FindAsync(id);
+            Categoria categoriaRetornada = await repositorio.Get(id); //Manda buscar a informação no BD (repositório) e após a resposta eu faço a verificação
             if (categoriaRetornada == null)
             {
                 return NotFound();
             }
-            return categoriaRetornada;
+            return categoriaRetornada; // Retorno da variável com a resposta do repositório
         }
         [HttpPost]
 
         public async Task<ActionResult<Categoria>> Post(Categoria categoria)
         {
-            try //usado para tentar algo/retornar erros
-            {
-                await context.Categoria.AddAsync(categoria);
-                await context.SaveChangesAsync();
+            try{
+               return await repositorio.Post(categoria); //Manda cadastrar nformação no BD através do respositório
             }
-            catch (System.Exception)
-            {
-                
-                throw;
-            }
-            return categoria;
+            catch(System.Exception ex){ // E se houver erro ele mostra qual foi
+               return BadRequest(new{mensagem = "Erro" + ex.Message});//BadRequest Mostra o erro, Mensagem (var) mostra qual foi recebendo o erro da exceção
+           }
         }
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, Categoria categoria)
+        public async Task<ActionResult<Categoria>> Put(int id, Categoria categoria)//Definir sempre o tipo de retorno <categoria>
         {
-            Categoria categoriaRetornada = await context.Categoria.FindAsync(id);
-            if (categoriaRetornada == null)
+            Categoria categoriaRetornada = await repositorio.Get(id); //buscando informação no banco
+            if (categoriaRetornada == null)//verificando se é nulo
             {
-                return NotFound();
+                return NotFound("Categoria não encontrada");//mensagem de erro
             }
-            categoriaRetornada.Titulo = categoria.Titulo;
-            context.Categoria.Update(categoriaRetornada);
-            await context.SaveChangesAsync();
-
-            return NoContent();
+           try{
+               return await repositorio.Put(id, categoria);// após a espera do retorno trás a informação de categoria (altera)
+           }
+           catch(System.Exception ex)//cria uma exceção
+           {
+                return BadRequest(new{mensagem = "Erro" + ex.Message});//caso haja erro informa-o
+           }
         }
         [HttpDelete("{id}")]
         public async Task<ActionResult<Categoria>> Delete(int id)
         {
-            Categoria categoriaRetornada = await context.Categoria.FindAsync(id);
-            if (categoriaRetornada == null)
+            Categoria categoriaRetornada = await repositorio.Get(id);//buscando informação no banco
+            if (categoriaRetornada == null)//verificando se é nulo
             {
-                return NotFound();
+                return NotFound("Categoria não encontrada");//mensagem de erro
             }
-            context.Categoria.Remove(categoriaRetornada);
-            await context.SaveChangesAsync();
+            try{
+                return await repositorio.Delete(id);// se não tiver erro ele apaga a informação no BD (repositório) por Id ---> Nos parenteses é necessário chamar exatamente o que está chamando o início da função
+            }
+            catch(System.Exception ex)//cria uma exceção
+            {
+                return BadRequest(new{mensagem = "Erro" + ex.Message});//caso haja erro informa-o
+            }
+            
 
-            return categoriaRetornada;
+          
         }
     }
 }
