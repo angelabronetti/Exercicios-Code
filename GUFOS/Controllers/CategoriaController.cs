@@ -12,11 +12,11 @@ namespace GUFOS.Controllers
     [Produces("application/json")]
     public class CategoriaController : ControllerBase
     {
-        GufosContext context = new GufosContext();
-
+        
         CategoriaRepositorio repositorio = new CategoriaRepositorio();
 
         [HttpGet]
+
 
         public async Task<ActionResult<List<Categoria>>> Get()
         {

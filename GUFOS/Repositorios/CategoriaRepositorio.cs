@@ -42,17 +42,13 @@ namespace GUFOS.Repositorios
             categoriaRetornada.Titulo = categoria.Titulo;
             await context.SaveChangesAsync();
             return categoriaRetornada;
-
-        //   context.Entry(categoria).State = EntityState.Modified;
-        //   await context.SaveChangesAsync();
-        //   return categoria;
         }
     }
 }
 
 
 //Find - Procurar
-// Context - Consulta
+//Context - Consulta
 //SaveChanges - Salvar no Banco
 //Task - Complemento do Async
 //categoriaRetornada - é o que retorna após a consulta (nome da variável)
